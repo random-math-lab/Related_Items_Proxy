@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = 3000;
 
-app.use(express.static( './lib/' ) ); // needs to be directed to html file
+app.use(express.static( 'public/lib/' ) ); // needs to be directed to html file
 
 
 
